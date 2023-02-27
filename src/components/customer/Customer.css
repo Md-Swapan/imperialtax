@@ -3,3 +3,14 @@
     min-height: 100vh;
     margin: 10px 0px;
 }
+.testimonial-content {
+    margin-bottom: 38px;
+    padding: 65px 40px 70px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #d9dbe0;
+    position: relative;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
+}
