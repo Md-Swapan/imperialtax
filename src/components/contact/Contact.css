@@ -1,0 +1,39 @@
+.contact_container {
+    min-height: 80vh;
+    margin: 10px 0px;
+}
+.contact_content {
+    background: gainsboro;
+    padding: 10px 2px;
+    margin-bottom: 10px;
+}
+.contact_left_container {
+    background: white;
+    padding: 100px 10px;
+}
+.contact_left_container h4 {
+    margin: 0px 50px;
+}
+.contact_left_container p {
+    font-size: 20px;
+    margin: 30px 50px;
+}
+.contact_right_container{
+    padding: 70px 10px;
+
+}
+.input_design {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 5px;
+}
