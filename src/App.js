@@ -5,6 +5,7 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Home from "./pages/home/Home";
+import WelcomeImperialTax from './components/welcomeImperialTax/WelcomeImperialTax';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
       </Routes> */}
       <Header/>
+      <WelcomeImperialTax/>
       <Home />
       <Customer />
       <Contact />
