@@ -9,7 +9,7 @@ const Customer = () => {
           <div className="text-center py-1">
             <h4 className="pt-2 fw-bold">HAPPY CUSTOMERS</h4>
             <div className="d-flex justify-content-center align-items-center">
-              <hr className="w-25" />
+              <hr className="w-25"/>
             </div>
             <p className="p-3">
               LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADI PISI CING ELIT, SED DO
@@ -18,7 +18,7 @@ const Customer = () => {
           </div>
           <div class="col-sm-12 col-md-6 py-1">
             <div class="testimonial-content">
-              <p className="fs-3 p-3">
+              <p className="p-3">
                 Lorem ipsum dolor sit amet, consectetur adi pisi cing elit, sed
                 do eiusmod tempor exercitationemut labore Love life’s sweetest.
               </p>
@@ -49,7 +49,7 @@ const Customer = () => {
 
           <div class="col-sm-12 col-md-6 py-1">
             <div class="testimonial-content">
-              <p className="fs-3 p-3">
+              <p className="p-3">
                 Lorem ipsum dolor sit amet, consectetur adi pisi cing elit, sed
                 do eiusmod tempor exercitationemut labore Love life’s sweetest.
               </p>
