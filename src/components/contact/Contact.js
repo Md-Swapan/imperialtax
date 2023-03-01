@@ -1,27 +1,40 @@
 import React, { useRef } from "react";
 import "./Contact.css";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-    const form = useRef();
+  const form = useRef();
 
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_jb96gwt', 'template_p88uf3w', form.current, 'IJ2Of9QNiSZnaNawL')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-    };
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_jb96gwt",
+        "template_p88uf3w",
+        form.current,
+        "IJ2Of9QNiSZnaNawL"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div className="contact_container">
       <div className="container">
-        <div className="row contact_content">
-          <div className="col-md-6">
-            <div className="contact_left_container">
-              <h4>Request a Call Back</h4>
+        <h4 className="text-center pt-5">Contact with us</h4>
+        <div className="d-flex justify-content-center align-items-center">
+          <hr className="w-25" />
+        </div>
+        <div className="row pb-5 mt-2">
+          <div className="col-sm-12 col-md-6 py-2">
+            <div className="p-1">
+              <h4 className="py-3">Request a Call Back</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adi pisi cing elit, sed
                 do eiusmod tempor exercitationemut.
@@ -34,14 +47,14 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="contact_right_container">
+          <div className="col-sm-12 col-md-6 py-2">
+            <div className="p-1">
               <form ref={form} onSubmit={sendEmail}>
                 <div class="mb-3">
                   <input
                     name="name"
                     type="text"
-                    class="input_design"
+                    class="form-control"
                     placeholder="Your Name"
                   />
                 </div>
@@ -49,7 +62,7 @@ const Contact = () => {
                   <input
                     name="email"
                     type="email"
-                    class="input_design"
+                    class="form-control"
                     placeholder="Your Email"
                   />
                 </div>
@@ -57,7 +70,7 @@ const Contact = () => {
                   <input
                     name="phone"
                     type="text"
-                    class="input_design"
+                    class=" form-control"
                     placeholder="Your Number"
                   />
                 </div>
