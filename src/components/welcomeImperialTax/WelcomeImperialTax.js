@@ -11,7 +11,7 @@ const WelcomeImperialTax = () => {
             <hr className="w-25" />
           </div>
           <div className="col-sm-12 col-md-6 p-3">
-            <h4>Welcome to Imperial Tax</h4>
+            <h4 className="mt-4 py-3">Welcome to Imperial Tax</h4>
             <p>
               Imperial provides you peace of mind providing best accounting,
               auditing, income tax and consultation services year-round either
